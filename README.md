@@ -1,3 +1,12 @@
+## Update
+
+Found some solutions and documentation:
+
+- https://github.com/rust-lang/cargo/issues/8366#issuecomment-653091992
+- https://doc.rust-lang.org/cargo/reference/features.html
+
+## The Issue
+
 Found some weird quirk of cargo that's breaking one of my projects.
 The `default-features` flag seems to be ignored when running binaries in a workspace folder / outside of a package folder.
 
